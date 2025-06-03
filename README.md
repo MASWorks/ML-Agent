@@ -34,9 +34,9 @@ The tasks are listed as follows:
 **ML-Agent** achieves state-of-the-art performance through a agentic training framework combining:  1. Exploration-Enriched Fine-Tuning, 2. Step-wise Reinforcement Learning, and 3. Unified Reward Mechanism.  
 
 <div align="center">
-  <img src="src/table1.png" width="80%">
+  <img src="src/table1.png" width="100%">
   <br>
-  <img src="src/figure3-4.png" width="80%">
+  <img src="src/figure3-4.png" width="100%">
 </div>
 
 **Key outcomes**:
