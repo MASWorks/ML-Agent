@@ -30,6 +30,20 @@ The tasks are listed as follows:
 | tabular-playground-series-dec-2021                  | Tabular   | Regression    | Acc. (%) ↑ | MLE    |
 
 
+## Results
+**ML-Agent** achieves state-of-the-art performance through a agentic training framework combining:  1. Exploration-Enriched Fine-Tuning, 2. Step-wise Reinforcement Learning, and 3. Unified Reward Mechanism.  
+
+<div align="center">
+  <img src="src/table1.png" width="80%">
+  <br>
+  <img src="src/figure3-4.png" width="80%">
+</div>
+
+**Key outcomes**:
+- 🚀 **ML-Agent achieves superior performance across both held-in and held-out tasks.**: Trained on **9 tasks** with **7B Qwen-2.5 model**, outperforms other 5 baselines, e.g. **671B DeepSeek-R1**. (Table 1)
+- 🔥 **ML-Agent outperforms stat-of-the-art agents.**: Comparing with AIDE-based agents (AIDE-4o, AIDE-o1, AIDE-r1), ML-Agent achieves best performance on most 11 tasks. (Figure 3)
+- ⚡ **ML-Agent achieves continuous performance improvements.**: As training progresses, performance of ML-Agent increases. (Figure 4)
+
 
 
 ## Citation
