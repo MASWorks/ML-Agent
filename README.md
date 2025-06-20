@@ -5,7 +5,7 @@ This repository is the official implementation of [ML-Agent: Reinforcing LLM Age
   <img src="assets/ML-Agent.png" width="30%">
 </div>
 
-## Machine Learning Tasks
+## 🧠 Machine Learning Tasks
 In our paper, we organize 9 training tasks (held-in) for both exploration-enriched fine-tuning and step-wise reinforcement learning(RL) and 10 tasks (held-out) for further evaluation. All tasks all collected from [MLAgentBench](https://arxiv.org/abs/2310.03302) (MLA) and [MLEBench](https://arxiv.org/abs/2410.07095) (MLE). 
 
 The tasks are listed as follows:
@@ -34,7 +34,7 @@ The tasks are listed as follows:
 | tabular-playground-series-dec-2021                  | Tabular   | Regression    | Acc. (%) ↑ | MLE    |
 
 
-## Results
+## 📈 Results
 **ML-Agent** achieves state-of-the-art performance through a agentic training framework combining:  1. Exploration-Enriched Fine-Tuning, 2. Step-wise Reinforcement Learning, and 3. Unified Reward Mechanism.  
 
 <div align="center">
@@ -49,7 +49,7 @@ The tasks are listed as follows:
 - ⚡ **ML-Agent achieves continuous performance improvements.**: As training progresses, performance of ML-Agent increases. (Figure 4)
 
 
-## Requirements
+## 🛠️ Requirements
 - **Training.** For exploration-enriched fine-tuning, we use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) codebase; for step-wise RL, we use [VeRL](https://github.com/volcengine/verl) codebase. Please follow the instructions in the respective repositories to set up the environment for training.
 
 - **Evaluation.** For environment to evaluate the agents on different machine learning tasks, please follow the instructions below: ```
@@ -62,7 +62,7 @@ pip install -r eval_requirements.txt```. Despite this, machine learning tasks ar
 
 
 
-## Training
+## 🚀 Training
 ### Exploration-enriched Fine-tuning
 The base model for fine-tuning is Qwen2.5-7B, you can dowonload here [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B).
 ```
@@ -74,7 +74,7 @@ RL is trained on the fine-tuned model from step 1.
 bash scripts/train_step2.sh
 ```
 
-## Evaluation
+## 🔍 Evaluation
 We evaluate on 3 held-in tasks (cifar-10, house-price, feedback) and 10 held-out tasks.
 ```
 bash scripts/eval.sh
@@ -98,7 +98,7 @@ We are gradually releasing components of ML-Agent to ensure reproducibility and 
 - [ ] Training datasets
 
 
-## Citation
+## 📄 Citation
 If you find the project helpful, please cite:
 ```
 @article{liu2025mlagentreinforcingllmagents,
