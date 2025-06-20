@@ -1,8 +1,14 @@
-# ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering
-This repository is the official implementation of [ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering](https://arxiv.org/pdf/2505.23723).
+<div align="center">
+  <img src="assets/logo.png" width="70%">
+</div>
+
+# ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering  
+[ML-Agent](https://arxiv.org/pdf/2505.23723)  is an autonomous machine learning framework powered by a 7B-sized Qwen-2.5 LLM, trained through a novel agentic training framework combining exploration-enriched fine-tuning, step-wise reinforcement learning, and a unified reward mechanism.
+
+
 
 <div align="center">
-  <img src="assets/ML-Agent.png" width="30%">
+  <img src="assets/figure1.png" width="100%">
 </div>
 
 ## 🧠 Machine Learning Tasks
