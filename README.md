@@ -84,12 +84,14 @@ You can specific the evaluation task and the model checkpoint by setting the fol
 
 
 
-## 🚀 Development Roadmap
+## 🌐 Public Release Schedule
 
-### ✅ Released
+We are gradually releasing components of ML-Agent to ensure reproducibility and accessibility for the research community.
+
+### ✅ Available Now
 - [x] Exploration-Enriched Fine-Tuning code
 
-### 🔄 Coming Soon
+### 🔄 To Be Released
 - [ ] Model checkpoints
 - [ ] Evaluation code
 - [ ] Step-wise Reinforcement Learning code
