@@ -3,7 +3,7 @@
 </div>
 
 # ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering  
-**An LLM Agent Trained to Outperform 671B Models with Only 9 Tasks**
+**An 7B LLM Agent Trained to Outperform the 671B Agent on Autonomous Machine Learning with Only 9 ML Tasks**
 
 [ML-Agent](https://arxiv.org/pdf/2505.23723) is an autonomous agent capable of performing end-to-end machine learning engineering, built upon a **7B-sized Qwen-2.5 LLM** and trained using a novel **agentic ML training framework**. This marks the first work where an LLM agent learns from interactive experimentation in ML environments through **online reinforcement learning (RL)** — going beyond heuristic or prompt-based designs.
 
