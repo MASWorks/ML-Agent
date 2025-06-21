@@ -3,13 +3,21 @@
 </div>
 
 # ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering  
-[ML-Agent](https://arxiv.org/pdf/2505.23723)  is an autonomous machine learning framework powered by a 7B-sized Qwen-2.5 LLM, trained through a novel agentic training framework combining exploration-enriched fine-tuning, step-wise reinforcement learning, and a unified reward mechanism.
+**An LLM Agent Trained to Outperform 671B Models with Only 9 Tasks**
 
+[ML-Agent](https://arxiv.org/pdf/2505.23723) is an autonomous agent capable of performing end-to-end machine learning engineering, built upon a **7B-sized Qwen-2.5 LLM** and trained using a novel **agentic ML training framework**. This marks the first work where an LLM agent learns from interactive experimentation in ML environments through **online reinforcement learning (RL)** — going beyond heuristic or prompt-based designs.
+
+Key components of the training framework include:
+- **Exploration-enriched fine-tuning**: Enhances action diversity for better RL exploration.
+- **Step-wise RL**: Enables fast and stable training through single-step optimization.
+- **Agentic ML-specific reward design**: Integrates multi-modal feedback into unified rewards.
 
 
 <div align="center">
   <img src="assets/figure1.png" width="100%">
 </div>
+
+Remarkably, despite being trained on only **9 ML tasks**, ML-Agent **outperforms the 671B-sized DeepSeek-R1 agent**, and shows strong cross-task generalization abilities.
 
 ## 🧠 Machine Learning Tasks
 In our paper, we organize 9 training tasks (held-in) for both exploration-enriched fine-tuning and step-wise reinforcement learning(RL) and 10 tasks (held-out) for further evaluation. All tasks all collected from [MLAgentBench](https://arxiv.org/abs/2310.03302) (MLA) and [MLEBench](https://arxiv.org/abs/2410.07095) (MLE). 
@@ -44,9 +52,9 @@ The tasks are listed as follows:
 **ML-Agent** achieves state-of-the-art performance through a agentic training framework combining:  1. Exploration-Enriched Fine-Tuning, 2. Step-wise Reinforcement Learning, and 3. Unified Reward Mechanism.  
 
 <div align="center">
-  <img src="assets/table1.png" width="50%">
+  <img src="assets/table1.png" width="100%">
   <br>
-  <img src="assets/figure3-4.png" width="50%">
+  <img src="assets/figure3-4.png" width="100%">
 </div>
 
 **Key outcomes**:
